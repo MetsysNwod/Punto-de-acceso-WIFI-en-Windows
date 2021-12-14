@@ -4,24 +4,24 @@ title Fix
 :Menu
 color 70
 cls
-title Men£ Principal Fix.
+title MenÂ£ Principal Fix.
 mode con cols=84 lines=33
 @echo ===================================================================================
 @echo #------------------------------------  Fix  --------------------------------------#
 @echo ===================================================================================
-@echo * Fix es una compilaci¢n de las herramientas avanzadas                            *
+@echo * Fix es una compilaciÂ¢n de las herramientas avanzadas                            *
 @echo * Usadas por los profesionales en los sistemas con arquitectura x86/64 Bits       *
-@echo * de (Win XP, Vista, 7, 8, 8.1 y 10) con prop¢sito de actualizaciones peri¢dicas. *
+@echo * de (Win XP, Vista, 7, 8, 8.1 y 10) con propÂ¢sito de actualizaciones periÂ¢dicas. *
 @echo *                                                                                 *
 @echo * Programado Por Sebastian Echeverry.                                             *
 @echo *                                                                                 *
-@echo * Servicio T‚cnico Profecional Android y PC todos los Sistemas Operativos.       *
+@echo * Servicio Tâ€šcnico Profecional Android y PC todos los Sistemas Operativos.        *
 @echo ===================================================================================
-@echo *                Escriba el n£mero de la opci¢n y pulsa enter:                    *
+@echo *                Escriba el nÂ£mero de la opciÂ¢n y pulsa enter:                    *
 @echo ===================================================================================
 @echo *                                                                                 *
 @echo *                1. Crear y administrar punto de acceso Wi-Fi.                    *
-@echo *                2. Mantenimiento y optimizaci¢n del sistema operativo.           *
+@echo *                2. Mantenimiento y optimizaciÂ¢n del sistema operativo.           *
 @echo *                3. Eliminar virus RECYCLER.EXE del sistema.                      *
 @echo *                4. Servidor WEB Xammp.                                           *
 @echo *                5. Salir.                                                        *
@@ -37,7 +37,7 @@ mode con cols=84 lines=33
 @echo *                                                                                 *
 @echo ===================================================================================
 @echo.
-set /p var=Opci¢n del [1-5]: 
+set /p var=OpciÂ¢n del [1-5]: 
 if %var%==1 goto :Menu1
 if %var%==2 goto :Menu2
 if %var%==3 goto :menuatvi
@@ -56,11 +56,11 @@ mode con cols=84 lines=34
 @echo ===================================================================================
 @echo #---------------- Compartir Wi-Fi (Win 7, 8, 8.1 y 10). --------------------------#
 @echo ===================================================================================
-@echo * Administraci¢n de red Wi-Fi Compartida e interfaces.                            *
+@echo * AdministraciÂ¢n de red Wi-Fi Compartida e interfaces.                            *
 @echo *                                                                                 *
 @echo * Programado Por Sebastian Echeverry Gomez.                                       *
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
 @echo *                  1. Encender Wi-Fi.                                             *
@@ -69,15 +69,15 @@ mode con cols=84 lines=34
 @echo *                  4. Cambiar o crear Nombre y Password de la red.                *
 @echo *                  5. Generar lista de todas las interfaces de red.               *
 @echo *                  6. Ver dispositivos conectados al Wi-Fi.                       *
-@echo *                  7. Generar gu¡a de como compartir conexi¢n.                    *
-@echo *                  8. Volver al men£ Principal.                                   *
+@echo *                  7. Generar guÂ¡a de como compartir conexiÂ¢n.                    *
+@echo *                  8. Volver al menÂ£ Principal.                                   *
 @echo *                  9. Salir.                                                      *
 @echo *                                                                                 *
 @echo ===================================================================================
 @echo * Para ver los dispositivos conectados a la red es necesario tener instalado      *
-@echo * Wireless Network Watcher desc rgalo de http://www.nirsoft.net                   *
+@echo * Wireless Network Watcher descÂ rgalo de http://www.nirsoft.net                   *
 @echo *                                                                                 *
-@echo * Los Nombres de red y contrase¤as con espacios deben ponerse entre comillas.     *
+@echo * Los Nombres de red y contraseÂ¤as con espacios deben ponerse entre comillas.     *
 @echo * Por Ejemplo: "Mi red Wi-Fi compartida".                                         *
 @echo *                                                                                 *
 @echo * Ir al centro de redes y recursos, seguidamente compartir su internet con la red *
@@ -85,7 +85,7 @@ mode con cols=84 lines=34
 @echo ===================================================================================
 @echo.
 
-set /p var=Opci¢n del [1-9]: 
+set /p var=OpciÂ¢n del [1-9]: 
 
 if %var%==1 goto :Primero
 if %var%==2 goto :Segundo
@@ -104,16 +104,16 @@ goto :Menu1
 :Menu2
 color 70
 cls
-title Mantenimiento y optimizaci¢n del sistema
+title Mantenimiento y optimizaciÂ¢n del sistema
 mode con cols=84 lines=34
 @echo ===================================================================================
 @echo #-------------------------------- Mantenimiento. ---------------------------------#
 @echo ===================================================================================
-@echo * Mantenimiento y optimizaci¢n del sistema operativo.                             *
+@echo * Mantenimiento y optimizaciÂ¢n del sistema operativo.                             *
 @echo *                                                                                 *
 @echo * Programado Por Sebastian Echeverry Gomez.                                       *
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
 @echo *  1. Limpiar cache y temporales.                                                 *
@@ -123,19 +123,19 @@ mode con cols=84 lines=34
 @echo *  5. Revisar Unidades de Disco y corregir errores.                               *
 @echo *  6. Reparar y corregir errores en Disco duro o USB.                             *
 @echo *  7. Listar Carpetas temporales usadas por el sistema. (Toma unos minutos).      *
-@echo *  8. Corregir errores de Windows Update solo Win 8, 8.1 y 10 (Requiere Conexi¢n).*
+@echo *  8. Corregir errores de Windows Update solo Win 8, 8.1 y 10 (Requiere ConexiÂ¢n).*
 @echo *  9. Ejecutar Limpieza de componentes Windows Update.                            *
 @echo *  10. Comprobar archivos del sistema y corregir errores.                         *
 @echo *  11. Generar un reporte detallado de todos los controladores en hoja de calculo.*
-@echo *  12. Realizar un an lisis de fragmentaci¢n en disco r¡gido, particiones o USB.  *
-@echo *  13. Desfragmentar disco r¡gido Partici¢n o USB.                                *
-@echo *  14. Volver al men£ principal.                                                  *
+@echo *  12. Realizar un anÂ lisis de fragmentaciÂ¢n en disco rÂ¡gido, particiones o USB.  *
+@echo *  13. Desfragmentar disco rÂ¡gido ParticiÂ¢n o USB.                                *
+@echo *  14. Volver al menÂ£ principal.                                                  *
 @echo *  15. Salir.                                                                     *
 @echo *                                                                                 *
 @echo ===================================================================================
 @echo.
 
-set /p var=Opci¢n del [1-15]: 
+set /p var=OpciÂ¢n del [1-15]: 
 if %var%==1 goto :Cuarto
 if %var%==2 goto :Sexto
 if %var%==3 goto :disskfree
@@ -157,7 +157,7 @@ goto :Menu2
 
 :analizdesfrag
 cls
-title Analizador De Fragmentaci¢n En Disco R¡gido.
+title Analizador De FragmentaciÂ¢n En Disco RÂ¡gido.
 color 17
 @echo ===================================================================================
 @echo #                         Discos y particiones detectadas.                        #
@@ -195,26 +195,26 @@ echo.
 
 :subalizadorfrag
 cls
-title Reporte De An lisis De Fragmentaci¢n.
+title Reporte De AnÂ lisis De FragmentaciÂ¢n.
 color 17
 mode con cols=84 lines=20
 
 @echo ===================================================================================
-@echo #----------------------- Analizador de fracmentaci¢n en disco . ------------------#
+@echo #----------------------- Analizador de fracmentaciÂ¢n en disco . ------------------#
 @echo ===================================================================================
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
-@echo *       1. Conservar reporte en el escritorio o volver al men£ anterior.          *
+@echo *       1. Conservar reporte en el escritorio o volver al menÂ£ anterior.          *
 @echo *       2. Eliminar Reporte.                                                      *
-@echo *       3. Repetir An lisis en otra unidad.                                       *
+@echo *       3. Repetir AnÂ lisis en otra unidad.                                       *
 @echo *       4. Salir.                                                                 *
 @echo *                                                                                 *
 @echo ===================================================================================
 @echo.
 
-set /p var=Opci¢n del [1-4]: 
+set /p var=OpciÂ¢n del [1-4]: 
 if %var%==1 goto :Menu2
 if %var%==2 goto :delisttmdfrgmp
 if %var%==3 goto :analizdesfrag
@@ -226,7 +226,7 @@ goto :subalizadorfrag
 cls
 title Reporte Eliminado...
 color 17
-echo Eliminar reporte de fragmentaci¢n en disco.
+echo Eliminar reporte de fragmentaciÂ¢n en disco.
 echo.
 
 echo.
@@ -239,15 +239,15 @@ del /f /q "Reporte de Fragmentacion.txt"
 
 echo Reporte eliminado.
 echo.
-echo Pulsa cualquier tecla para volver al men£ anterior.
+echo Pulsa cualquier tecla para volver al menÂ£ anterior.
 echo.
 Pause>Nul
 goto :subalizadorfrag
 
 :Errormenuamdefrag
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :subalizadorfrag
@@ -257,7 +257,7 @@ goto :subalizadorfrag
 
 :discodesfragmenta
 cls
-title Desfragmentador De Disco R¡gido.
+title Desfragmentador De Disco RÂ¡gido.
 color 17
 @echo ===================================================================================
 @echo #                         Discos y particiones detectadas.                        #
@@ -331,18 +331,18 @@ echo.
 
 :desframenreporte
 cls
-title Reporte De Reparaci¢n.
+title Reporte De ReparaciÂ¢n.
 color 17
 mode con cols=84 lines=20
 
 @echo ===================================================================================
-@echo #----------------------- Analizador de fracmentaci¢n en disco . ------------------#
+@echo #----------------------- Analizador de fracmentaciÂ¢n en disco . ------------------#
 @echo ===================================================================================
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
-@echo *       1. Conservar reporte en el escritorio o volver al men£ anterior.          *
+@echo *       1. Conservar reporte en el escritorio o volver al menÂ£ anterior.          *
 @echo *       2. Eliminar Reporte.                                                      *
 @echo *       3. Desfragmentar otra unidad.                                             *
 @echo *       4. Salir.                                                                 *
@@ -350,7 +350,7 @@ mode con cols=84 lines=20
 @echo ===================================================================================
 @echo.
 
-set /p var=Opci¢n del [1-4]: 
+set /p var=OpciÂ¢n del [1-4]: 
 if %var%==1 goto :Menu2
 if %var%==2 goto :delreortedesframenta
 if %var%==3 goto :discodesfragmenta
@@ -362,7 +362,7 @@ goto :desframenreporte
 cls
 title Reporte Eliminado...
 color 17
-echo Eliminar reporte de fragmentaci¢n en disco.
+echo Eliminar reporte de fragmentaciÂ¢n en disco.
 echo.
 
 echo.
@@ -375,15 +375,15 @@ del /f /q "Reporte Desfragmentacion.txt"
 
 echo Reporte eliminado.
 echo.
-echo Pulsa cualquier tecla para volver al men£ anterior.
+echo Pulsa cualquier tecla para volver al menÂ£ anterior.
 echo.
 Pause>Nul
 goto :desframenreporte
 
 :Errordesfragmentador
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :desframenreporte
@@ -405,22 +405,22 @@ mode con cols=84 lines=20
 @echo *                                                                                 *
 @echo * Programado Por Sebastian Echeverry Gomez.                                       *
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
 @echo *                          1. Iniciar Xampp-Control.                              *
 @echo *                          2. Apagar Xampp-Control.                               *
-@echo *                          3. Volver al men£ principal.                           *
+@echo *                          3. Volver al menÂ£ principal.                           *
 @echo *                          4. Salir.                                              *
 @echo *                                                                                 *
 @echo ===================================================================================
 @echo ===================================================================================
 @echo * Para poder controlar Xammp debe tenerlo instalado en la ruta C:\xampp           *
-@echo * desc rgalo de https://www.apachefriends.org/es/download.html                    *
+@echo * descÂ rgalo de https://www.apachefriends.org/es/download.html                    *
 @echo ===================================================================================
 echo.
 
-set /p var=Opci¢n del [1-4]: 
+set /p var=OpciÂ¢n del [1-4]: 
 if %var%==1 goto :DecimoPrimero
 if %var%==2 goto :DecimoSegundo
 if %var%==3 goto :menu
@@ -439,7 +439,7 @@ netsh wlan start hostednetwork
 
 echo Hostpot encendido...
 echo.
-echo Pulse Cualquier tecla para volver al men£.
+echo Pulse Cualquier tecla para volver al menÂ£.
 echo.
 Pause>Nul
 goto :Menu1
@@ -453,7 +453,7 @@ Echo Apagando Wi-Fi Compartido...
 
 netsh wlan stop hostednetwork
 
-echo Hostpot apagado Pulse una tecla para volver al men£.
+echo Hostpot apagado Pulse una tecla para volver al menÂ£.
 echo.
 Pause>Nul
 echo.
@@ -504,7 +504,7 @@ pause
 echo.
 netsh winsock reset
 echo.
-echo Pulsa una tecla para volver al men£.
+echo Pulsa una tecla para volver al menÂ£.
 echo.
 Pause>Nul
 goto :Menu1
@@ -538,7 +538,7 @@ pause
 
 taskkill /f /im notepad.exe
 
-echo Limpieza completada con ‚xito abriendo detalles...
+echo Limpieza completada con â€šxito abriendo detalles...
 echo.
 
 :Temmporalesdeletr
@@ -548,13 +548,13 @@ color 17
 mode con cols=84 lines=20
 
 @echo ===================================================================================
-@echo #----------------------- Generador de los detalles de conexi¢n. ------------------#
+@echo #----------------------- Generador de los detalles de conexiÂ¢n. ------------------#
 @echo ===================================================================================
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
-@echo *       1. Conservar reporte en el escritorio o volver al men£ anterior.          *
+@echo *       1. Conservar reporte en el escritorio o volver al menÂ£ anterior.          *
 @echo *       2. Eliminar Reporte De Limpieza.                                          *
 @echo *       3. Volver a ejecutar limpieza.                                            *
 @echo *       4. Abrir Reporte de limpieza.                                             *
@@ -563,7 +563,7 @@ mode con cols=84 lines=20
 @echo ===================================================================================
 @echo.
 
-set /p var=Opci¢n del [1-5]: 
+set /p var=OpciÂ¢n del [1-5]: 
 if %var%==1 goto :Menu2
 if %var%==2 goto :delreporttempols   
 if %var%==3 goto :Cuarto
@@ -589,7 +589,7 @@ del /f /q "Temporales Eliminados.txt"
 
 echo Reporte eliminado.
 echo.
-echo Pulsa cualquier tecla para volver al men£ anterior.
+echo Pulsa cualquier tecla para volver al menÂ£ anterior.
 echo.
 Pause>Nul
 goto :Temmporalesdeletr
@@ -610,17 +610,17 @@ pause
 
 taskkill /f /im notepad.exe
 
-echo Limpieza completada con ‚xito abriendo detalles...
+echo Limpieza completada con â€šxito abriendo detalles...
 echo.
-echo Pulsa cualquier tecla para volver al men£ anterior.
+echo Pulsa cualquier tecla para volver al menÂ£ anterior.
 echo.
 pause>nul
 goto :Temmporalesdeletr
 
 :Errormencoptempodc
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :Redwificompartida
@@ -636,16 +636,16 @@ call
 
 set /P idred="Escribe el nombre de la red y pulsa enter: "
 
-set /P pass="Introduce el password y pulsa enter (M¡nimo 8 Caracteres): "
+set /P pass="Introduce el password y pulsa enter (MÂ¡nimo 8 Caracteres): "
 
 netsh wlan set hostednetwork mode=allow ssid=%idred% key=%pass%
 
-echo Configuraci¢n Completa...
+echo ConfiguraciÂ¢n Completa...
 echo.
 echo Nombre de red y clave guardados en el escritorio.
 echo ESSID: %idred% PASSWORD: %pass% > "C:\Users\%username%\Desktop\Mi Red Wi-Fi Compartida.txt"
 echo.
-echo Mostrando su configuraci¢n establecida en la red hospedada...
+echo Mostrando su configuraciÂ¢n establecida en la red hospedada...
 
 cd "C:\Users\%username%\Desktop"
 
@@ -657,7 +657,7 @@ pause
 
 taskkill /f /im notepad.exe
 
-echo Red Compartida creada con ‚xito abriendo detalles...
+echo Red Compartida creada con â€šxito abriendo detalles...
 echo.
 
 :Redwificompartida
@@ -667,14 +667,14 @@ color 17
 mode con cols=84 lines=20
 
 @echo ===================================================================================
-@echo #----------------------- Generador de los detalles de conexi¢n. ------------------#
+@echo #----------------------- Generador de los detalles de conexiÂ¢n. ------------------#
 @echo ===================================================================================
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
-@echo *       1. Conservar reporte en el escritorio o volver al men£ anterior.          *
-@echo *       2. Eliminar Detalles de Conexi¢n.                                         *
+@echo *       1. Conservar reporte en el escritorio o volver al menÂ£ anterior.          *
+@echo *       2. Eliminar Detalles de ConexiÂ¢n.                                         *
 @echo *       3. Volver a crear la red Wi-Fi Compartida.                                *
 @echo *       4. Generar detalles de la red compartida.                                 *
 @echo *       5. Salir.                                                                 *
@@ -682,7 +682,7 @@ mode con cols=84 lines=20
 @echo ===================================================================================
 @echo.
 
-set /p var=Opci¢n del [1-5]: 
+set /p var=OpciÂ¢n del [1-5]: 
 if %var%==1 goto :Menu1
 if %var%==2 goto :deltalewifi
 if %var%==3 goto :Quinto
@@ -708,7 +708,7 @@ del /f /q "Mi Red Wi-Fi Compartida.txt"
 
 echo Reporte eliminado.
 echo.
-echo Pulsa cualquier tecla para volver al men£ anterior.
+echo Pulsa cualquier tecla para volver al menÂ£ anterior.
 echo.
 Pause>Nul
 goto :Redwificompartida
@@ -717,8 +717,8 @@ goto :Redwificompartida
 
 :Errormencopwifi
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :Redwificompartida
@@ -730,7 +730,7 @@ color 17
 
 echo ESSID: %idred% PASSWORD: %pass% > "C:\Users\%username%\Desktop\Mi Red Wi-Fi Compartida.txt"
 echo.
-echo Mostrando su configuraci¢n establecida en la red hospedada...
+echo Mostrando su configuraciÂ¢n establecida en la red hospedada...
 
 cd "C:\Users\%username%\Desktop"
 
@@ -764,7 +764,7 @@ start "" "C:\windows\explorer.exe"
 echo.
 echo Correcto:
 echo.
-echo Pulsa una tecla para volver al men£.
+echo Pulsa una tecla para volver al menÂ£.
 echo.
 Pause>Nul
 goto :Menu2
@@ -806,11 +806,11 @@ mode con cols=84 lines=20
 @echo #----------- Reporte Detallado de las conexiones e interfaces de red. ------------#
 @echo ===================================================================================
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
 @echo *            1. Abrir Reporte.                                                    *
-@echo *            2. Conservar repore o volver al menu de administraci¢n de red.       *
+@echo *            2. Conservar repore o volver al menu de administraciÂ¢n de red.       *
 @echo *            3. Eliminar reporte.                                                 *
 @echo *            4. Repetir Escaneo.                                                  *
 @echo *            5. Salir.                                                            *
@@ -818,7 +818,7 @@ mode con cols=84 lines=20
 @echo ===================================================================================
 @echo.
 
-set /p var=Opci¢n del [1-5]: 
+set /p var=OpciÂ¢n del [1-5]: 
 if %var%==1 goto :operepot
 if %var%==2 goto :Menu1
 if %var%==3 goto :delrepred
@@ -875,7 +875,7 @@ goto :submen1
 :Octavo
 cls
 color 17
-title Esc ner De Intrusos En Mi Red Wi-Fi.
+title EscÂ ner De Intrusos En Mi Red Wi-Fi.
 start C:\"Program Files (x86)"\NirSoft\"Wireless Network Watcher"\WNetWatcher.exe
 
 echo Pulse Cualquier tecla para cerrar
@@ -883,7 +883,7 @@ pause
 
 taskkill /f /im WNetWatcher.exe
 
-echo Pulsa una tecla para volver al men£.
+echo Pulsa una tecla para volver al menÂ£.
 echo.
 Pause>Nul
 goto :Menu1
@@ -919,7 +919,7 @@ pause
 
 del /f /q "Guia Compartir Internet.txt"
 
-echo Pulsa cualquier tecla para volver al men£.
+echo Pulsa cualquier tecla para volver al menÂ£.
 echo.
 Pause>Nul
 goto :Menu1
@@ -929,7 +929,7 @@ goto :Menu1
 :Decimo
 cls
 color 17
-title Liberador De Espacio En Discos R¡gidos.
+title Liberador De Espacio En Discos RÂ¡gidos.
 echo Liberando espacio en disco en todas las unidades.
 echo.
 echo espere......
@@ -937,7 +937,7 @@ echo espere......
 Cleanmgr.exe /sagerun:64
 
 echo.
-echo Pulsa cualquier tecla para volver al men£.
+echo Pulsa cualquier tecla para volver al menÂ£.
 echo.
 Pause>Nul
 goto :Menu2
@@ -952,7 +952,7 @@ color 17
 start C:\xampp\xampp-control.exe
 
 echo.
-echo Pulse cualquier tecla para volver al men£.
+echo Pulse cualquier tecla para volver al menÂ£.
 echo.
 Pause>Nul
 goto :Menu3
@@ -973,14 +973,14 @@ pause
 taskkill /f /im xampp-control.exe
 
 echo.
-echo Pulse cualquier tecla para volver al men£.
+echo Pulse cualquier tecla para volver al menÂ£.
 echo.
 Pause>Nul
 goto :Menu3
 
 :disskfree
 cls
-title Verificador De Espacio Libre En Disco R¡gido.
+title Verificador De Espacio Libre En Disco RÂ¡gido.
 color 17
 @echo ===================================================================================
 @echo #                         Discos y particiones detectadas.                        #
@@ -1004,17 +1004,17 @@ cls
 @echo #---------------------- Examinador de espacio en discos. -------------------------#
 @echo ===================================================================================
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
 @echo *                         1. Examinar otra unidad.                                *
-@echo *                         2. Volver al men£ anterior.                             *
+@echo *                         2. Volver al menÂ£ anterior.                             *
 @echo *                         3. Salir.                                               *
 @echo *                                                                                 *
 @echo ===================================================================================
 @echo.
 
-set /p var=Opci¢n del [1-3]: 
+set /p var=OpciÂ¢n del [1-3]: 
 if %var%==1 goto :disskfree
 if %var%==2 goto :Menu2
 if %var%==3 goto exit
@@ -1024,7 +1024,7 @@ goto :disskfree
 
 :compssdisk
 cls
-title Comprobador De Errores En Disco R¡gido.
+title Comprobador De Errores En Disco RÂ¡gido.
 color 17
 @echo ===================================================================================
 @echo #                         Discos y particiones detectadas.                        #
@@ -1051,7 +1051,7 @@ echo Generando Reporte....
 echo.
 echo Reporte Generado en el escritorio.
 echo.
-echo Pulsa cualquier tecla para abrir men£ de reporte.
+echo Pulsa cualquier tecla para abrir menÂ£ de reporte.
 echo.
 pause>nul
 goto :menexaminadordiscorss
@@ -1063,11 +1063,11 @@ cls
 @echo #--------------------- Comprobador de errores en discos. -------------------------#
 @echo ===================================================================================
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
 @echo *                         1. Examinar otra unidad.                                *
-@echo *                         2. Volver al men£ anterior y conservar reporte.         *
+@echo *                         2. Volver al menÂ£ anterior y conservar reporte.         *
 @echo *                         3. Abrir Reporte del examen.                            *
 @echo *                         4. Eliminar Reporte del examen.                         *
 @echo *                         5. Salir.                                               *
@@ -1076,7 +1076,7 @@ cls
 @echo.
 
 
-set /p var=Opci¢n del [1-3]: 
+set /p var=OpciÂ¢n del [1-3]: 
 if %var%==1 goto :compssdisk
 if %var%==2 goto :Menu2
 if %var%==3 goto :abreexamenreport
@@ -1125,7 +1125,7 @@ del /f /q "Examinador de discos.txt"
 
 echo Reporte eliminado.
 echo.
-echo Pulsa cualquier tecla para volver al men£ anterior.
+echo Pulsa cualquier tecla para volver al menÂ£ anterior.
 echo.
 Pause>Nul
 goto :menexaminadordiscorss
@@ -1134,7 +1134,7 @@ goto :menexaminadordiscorss
 
 :compssdisk1
 cls
-title Reparador De Discos R¡gido Y Unidades Externas.
+title Reparador De Discos RÂ¡gido Y Unidades Externas.
 color 17
 @echo ===================================================================================
 @echo #                         Discos y particiones detectadas.                        #
@@ -1154,13 +1154,13 @@ set /P letteerdisk="Escribe la letra de la unidad que quiere reparar y pulsa ent
 start /B chkdsk %letteerdisk%: /F /X /V > "C:\Users\%username%\Desktop\Reparador de discos.log"
 
 echo.
-echo Reparaci¢n completa.
+echo ReparaciÂ¢n completa.
 echo.
 echo Generando Reporte....
 echo.
 echo Reporte Generado en el escritorio.
 echo.
-echo Pulsa cualquier tecla para abrir men£ de reporte.
+echo Pulsa cualquier tecla para abrir menÂ£ de reporte.
 echo.
 pause>nul
 goto menu1desfragmentaorss
@@ -1172,14 +1172,14 @@ title Visor De Reporte.
 mode con cols=84 lines=20
 
 @echo ===================================================================================
-@echo #----------------------------- Reparaci¢n Completa. ------------------------------#
+@echo #----------------------------- ReparaciÂ¢n Completa. ------------------------------#
 @echo ===================================================================================
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
 @echo *                         1. Reparar otra unidad.                                 *
-@echo *                         2. Volver al men£ anterior y conservear reporte.        *
+@echo *                         2. Volver al menÂ£ anterior y conservear reporte.        *
 @echo *                         3. Eliminar reporte.                                    *
 @echo *                         4. Abrir reporte.                                       *
 @echo *                         5. Salir.                                               *
@@ -1187,7 +1187,7 @@ mode con cols=84 lines=20
 @echo ===================================================================================
 @echo.
 
-set /p var=Opci¢n del [1-3]: 
+set /p var=OpciÂ¢n del [1-3]: 
 if %var%==1 goto :compssdisk1
 if %var%==2 goto :Menu2
 if %var%==3 goto :delreparadordiscreport
@@ -1215,7 +1215,7 @@ del /f /q "Reparador de discos.log"
 
 echo Reporte eliminado.
 echo.
-echo Pulsa cualquier tecla para volver al men£ anterior.
+echo Pulsa cualquier tecla para volver al menÂ£ anterior.
 echo.
 Pause>Nul
 goto :menu1desfragmentaorss
@@ -1285,10 +1285,10 @@ mode con cols=84 lines=20
 @echo #------------- Buscador de carpetas temporales usadas por el Sistema. ------------#
 @echo ===================================================================================
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
-@echo *       1. Conservar listado en el escritorio o volver al men£ anterior.          *
+@echo *       1. Conservar listado en el escritorio o volver al menÂ£ anterior.          *
 @echo *       2. Eliminar lista.                                                        *
 @echo *       3. Repetir Escaneo.                                                       *
 @echo *       4. Salir.                                                                 *
@@ -1296,7 +1296,7 @@ mode con cols=84 lines=20
 @echo ===================================================================================
 @echo.
 
-set /p var=Opci¢n del [1-4]: 
+set /p var=OpciÂ¢n del [1-4]: 
 if %var%==1 goto :Menu2
 if %var%==2 goto :dellisttmp
 if %var%==3 goto :Temporales
@@ -1323,39 +1323,39 @@ del /f /q "Directorios que almacenan temporales.txt"
 
 echo lista eliminada.
 echo.
-echo Pulsa cualquier tecla para volver al men£ anterior.
+echo Pulsa cualquier tecla para volver al menÂ£ anterior.
 echo.
 Pause>Nul
 goto :submenu
 
 :Error
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :Menu
 
 :Error1
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :Menu1
 
 :Error2
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :Menu2
 
 :Error3
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :Menu3
@@ -1363,8 +1363,8 @@ goto :Menu3
 
 :Erroportdriver
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :submen1
@@ -1372,39 +1372,39 @@ goto :submen1
 
 :Errorred
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :submen1
 
 :Erroriskd
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 pause>nul
 goto :disskfree
 
 :Errorcoppssd 
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :compssdisk
 
 :Errorcmpss1
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :compssdisk1
 
 :Errorsubmenu
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles. Gracias
 echo.
 pause>nul
 goto :submenu
@@ -1419,23 +1419,23 @@ mode con cols=84 lines=20
 @echo ===================================================================================
 @echo #----------------------------- Eliminar RECYCLER.EXE -----------------------------#
 @echo ===================================================================================
-@echo * Reparaci¢n de archivos USB y del sistema.                                       *
+@echo * ReparaciÂ¢n de archivos USB y del sistema.                                       *
 @echo *                                                                                 *
 @echo * Programado por Sebastian Echeverry Gomez.                                       *
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
 @echo *               1. Eliminar virus RECYCLER.EXE                                    *
 @echo *               2. Eliminar rastros del virus RECYCLER.EXE en el sistema.         *
 @echo *               3. Eliminar Accesos directos y restaurar archivos ocultos.        *
-@echo *               4. Volver al men£ anterior.                                       *
+@echo *               4. Volver al menÂ£ anterior.                                       *
 @echo *               5. salir.                                                         *
 @echo *                                                                                 *
 @echo ===================================================================================
 echo.
 
-set /p var=Opci¢n del [1-5]: 
+set /p var=OpciÂ¢n del [1-5]: 
 if %var%==1 goto :removalrc
 if %var%==2 goto :cleanrest
 if %var%==3 goto :accesdirect
@@ -1446,8 +1446,8 @@ goto :Menu
 
 :Errorvr
 cls
-title ¡error!
-echo %username% opci¢n inexistente intenta de nuevo con una de las opciones disponibles.
+title Â¡error!
+echo %username% opciÂ¢n inexistente intenta de nuevo con una de las opciones disponibles.
 echo.
 echo Gracias.
 echo.
@@ -1490,7 +1490,7 @@ echo Eliminado autorun.inf...
 if exist autorun.inf del autorun.inf
 
 echo.
-echo Pulse cualquier tecla para volver al men£ anterior.
+echo Pulse cualquier tecla para volver al menÂ£ anterior.
 echo.
 pause>nul
 goto :menuatvi
@@ -1531,7 +1531,7 @@ echo.
 pause
 echo.
 echo Deshabilitando el sistema, por unos momentos
-echo durante la desinfecci¤n...
+echo durante la desinfecciÂ¤n...
 
 taskkill /f /im explorer.exe
 reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\Hidden\SHOWALL /v CheckedValue /t REG_DWORD /d 1 /f
@@ -1549,7 +1549,7 @@ reg delete "HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\{08B0E5C0-
 reg delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v Tester /f
 
 echo.
-echo Disco local %letterclrexxx%: desinfectado con ‚xito.
+echo Disco local %letterclrexxx%: desinfectado con â€šxito.
 echo.
 echo Discos y particiones detectadas.
 echo.
@@ -1557,7 +1557,7 @@ echo.
 fsutil fsinfo drives
 
 echo.
-echo Continuaci¢n de an lisis en particiones y unidades extra¡bles.
+echo ContinuaciÂ¢n de anÂ lisis en particiones y unidades extraÂ¡bles.
 echo.
 call
 set /P letterclrex="Escribe la letra de la unidad que quiere examinar y pulsa enter: "
@@ -1581,27 +1581,27 @@ title Explorer.exe Reset.
 color 17
 echo.
 echo.
-echo Virus RECYCLER eliminado con ‚xito...
+echo Virus RECYCLER eliminado con â€šxito...
 echo la carpeta RECYCLER pertenece al sistema,
-echo tendr  que eliminarla manualmente de los Discos USB.
+echo tendrÂ  que eliminarla manualmente de los Discos USB.
 echo.
 echo Restableciendo sistema...
 echo Pulsa una tecla.
 echo.
 pause
 start "" "C:\windows\explorer.exe"
-echo Pulse cualquier tecla para volver al men£.
+echo Pulse cualquier tecla para volver al menÂ£.
 echo.
 pause>nul
 goto :menuatvi
 
 :norclr
 cls
-title Sin Infecci¢n
+title Sin InfecciÂ¢n
 color 17
 echo Tu disco local %letterclrexxx%: esta libre del virus RECYCLER.EXE.
 echo.
-echo Pulse cualquier tecla para volver al men£.
+echo Pulse cualquier tecla para volver al menÂ£.
 echo.
 pause>nul
 goto :menuatvi
@@ -1638,7 +1638,7 @@ taskkill /f /im fun.xls.exe
 taskkill /f /im msfun80.exe
 taskkill /f /im msime82.exe
 
-echo Dirigi‚ndonos al directorio de hn.exe
+echo Dirigiâ€šndonos al directorio de hn.exe
 
 cd \
 cd recycler
@@ -1657,7 +1657,7 @@ cd..
 attrib -s -h -r k-1-3542-4232123213-7676767-8888886
 rmdir k-1-3542-4232123213-7676767-8888886
 
-echo Dirigi‚ndonos al origen y eliminando ficheros asociados y casuales...
+echo Dirigiâ€šndonos al origen y eliminando ficheros asociados y casuales...
 
 cd ..
 attrib autorun.inf -s -h -r
@@ -1706,7 +1706,7 @@ attrib fun.xls.exe -s -h -r
 del fun.xls.exe
 
 
-echo Repitiendo Proceso anterior en el disco r¡gido...
+echo Repitiendo Proceso anterior en el disco rÂ¡gido...
 
 c:
 cd \
@@ -1726,7 +1726,7 @@ cd..
 attrib -s -h -r k-1-3542-4232123213-7676767-8888886
 rmdir k-1-3542-4232123213-7676767-8888886
 
-echo Dirigi‚ndonos al origen y eliminando ficheros asociados y casuales...
+echo Dirigiâ€šndonos al origen y eliminando ficheros asociados y casuales...
 
 cd ..
 attrib autorun.inf -s -h -r
@@ -1819,7 +1819,7 @@ echo Reiniciando Explorador de archivos EXPLORER.EXE...
 start "" "C:\windows\explorer.exe"
 
 echo.
-echo Pulse cualquier tecla para volver al men£ anterior.
+echo Pulse cualquier tecla para volver al menÂ£ anterior.
 echo.
 pause>nul
 goto :menuatvi
@@ -1837,10 +1837,10 @@ pause
 Dism.exe /Online /cleanup-Image /RestoreHealth
 
 echo.
-echo Operaci¢n completa; pulsa cualquier tecla para volver al men£ anterior.
+echo OperaciÂ¢n completa; pulsa cualquier tecla para volver al menÂ£ anterior.
 echo.
 echo Si obtuvo el mensaje de error 0x800f081f ejecute la limpieza de
-echo componentes (Opci¢n 9 en el men£ anterior)
+echo componentes (OpciÂ¢n 9 en el menÂ£ anterior)
 echo.
 pause>nul
 goto :Menu2
@@ -1849,7 +1849,7 @@ goto :Menu2
 cls
 title Limpiador De Componentes Windows Update.
 color 17
-echo Correcci¤n de errores en Windows Update...
+echo CorrecciÂ¤n de errores en Windows Update...
 echo.
 echo Tomara unos minutos, pulsa una tecla para continuar.
 echo.
@@ -1858,9 +1858,9 @@ pause
 Dism.exe /online /cleanup-Image /StartComponentCleanup
 
 echo.
-echo Operaci¢n completa; pulsa cualquier tecla para volver al men£ anterior.
+echo OperaciÂ¢n completa; pulsa cualquier tecla para volver al menÂ£ anterior.
 echo.
-echo Ejecute el Reparador De Archivos Del Sistema (Opci¢n 10 en el men£ anterior).
+echo Ejecute el Reparador De Archivos Del Sistema (OpciÂ¢n 10 en el menÂ£ anterior).
 echo.
 pause>nul
 goto :Menu2
@@ -1869,7 +1869,7 @@ goto :Menu2
 cls
 title Reparador De Archivos Del Sistema.
 color 17
-echo Reparaci¤n de archivos del sistema...
+echo ReparaciÂ¤n de archivos del sistema...
 echo.
 echo Tomara unos minutos, pulsa una tecla para continuar.
 echo.
@@ -1878,10 +1878,10 @@ pause
 sfc /scannow
 
 echo.
-echo Operaci¢n completa; pulsa cualquier tecla para volver al men£ anterior.
+echo OperaciÂ¢n completa; pulsa cualquier tecla para volver al menÂ£ anterior.
 echo.
-echo Vuelva a ejecutar la opci¢n 8 para completar la reparaci¤n de Windows Update.
-echo Recuerde que necesita conexi¤n a internet para usar la opci¢n 8.
+echo Vuelva a ejecutar la opciÂ¢n 8 para completar la reparaciÂ¤n de Windows Update.
+echo Recuerde que necesita conexiÂ¤n a internet para usar la opciÂ¢n 8.
 echo.
 pause>nul
 goto :Menu2
@@ -1897,7 +1897,7 @@ echo.
 driverquery  /fo CSV > "C:\Users\%username%\Desktop\Controladores.csv"
 
 echo.
-echo Reporte generado con ‚xito.
+echo Reporte generado con â€šxito.
 
 goto :reportdrive
 
@@ -1910,18 +1910,18 @@ mode con cols=84 lines=20
 @echo #----------------------------- Detalles De Controladores -------------------------#
 @echo ===================================================================================
 @echo ===================================================================================
-@echo *                  Escriba el n£mero de la opci¢n y pulsa enter.                  *
+@echo *                  Escriba el nÂ£mero de la opciÂ¢n y pulsa enter.                  *
 @echo ===================================================================================
 @echo *                                                                                 *
 @echo *                       1. Abrir Reporte.                                         *
-@echo *                       2. Conservar reporte o volver al men£ mantenimiento.      *
+@echo *                       2. Conservar reporte o volver al menÂ£ mantenimiento.      *
 @echo *                       3. Eliminar reporte.                                      *
 @echo *                       4. Repetir Escaneo.                                       *
 @echo *                       5. Salir.                                                 *
 @echo *                                                                                 *
 @echo ===================================================================================
 @echo.
-set /p var=Opci¢n del [1-5]: 
+set /p var=OpciÂ¢n del [1-5]: 
 if %var%==1 goto :operepotdr
 if %var%==2 goto :Menu2
 if %var%==3 goto :delrepreddr
