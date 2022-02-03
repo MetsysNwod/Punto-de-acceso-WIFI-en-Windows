@@ -1,6 +1,6 @@
 @echo off
 title Fix
-
+CHCP 65001
 :Menu
 color 70
 cls
@@ -26,15 +26,15 @@ mode con cols=84 lines=33
 @echo *                5. Salir.                                                        *
 @echo *                                                                                 *
 @echo ===================================================================================
-@echo *===================== Donaciones en criptomonedas ===============================*
+@echo *============================ Invitar un café ====================================*
 @echo ===================================================================================
-@echo *                                                                                 *
-@echo *                                                                                 *
-@echo *                                                                                 *
-@echo *                                                                                 *
-@echo *                                                                                 *
-@echo *                                                                                 *
-@echo *                                                                                 *
+@echo * BTC: bc1qrhcc0x8cfkclngr5smhe68fnl5dk4zzj008gcm                                 *
+@echo * BCH: qzkkrqc92uts7p5w273llv2fnuef3jzdrqeeltfqgp                                 *
+@echo * ZEC: t1ZCMKKc38j5TtQ9FBxvbHvLrEH1YBzgEqw                                        *
+@echo * LTC: ltc1q2wqgwx42fhm47lwwyz6srv9c4kr5khlucyylhz                                *
+@echo * TXR: TQc4PRLd131domMNkiGJvGYg1iLqLya5Zp                                         *
+@echo * USDT: TQc4PRLd131domMNkiGJvGYg1iLqLya5Zp                                        *
+@echo * DOGE: DQ3HatacjVTwVGADvWFkjVBibpG1J4BPeN                                        *
 @echo ===================================================================================
 @echo.
 set /p var=Opci¢n del [1-5]: 
