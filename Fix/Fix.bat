@@ -11,11 +11,10 @@ mode con cols=84 lines=33
 @echo ===================================================================================
 @echo * Fix es una compilaci¢n de las herramientas avanzadas                            *
 @echo * Usadas por los profesionales en los sistemas con arquitectura x86/64 Bits       *
-@echo * de (Win XP, Vista, 7, 8, 8.1 y 10) con prop¢sito de actualizaciones peri¢dicas. *
+@echo * de (Win XP, Vista, 7, 8, 8.1 y 10).                                             *
+@echo * Ejecutar esta herramienta con privilegios de administrador                      *
+@echo * para su correcto funcionamiento.                                                *
 @echo *                                                                                 *
-@echo * Programado Por Sebastian Echeverry.                                             *
-@echo *                                                                                 *
-@echo * Servicio T‚cnico Profecional Android y PC todos los Sistemas Operativos.        *
 @echo ===================================================================================
 @echo *                Escriba el n£mero de la opci¢n y pulsa enter:                    *
 @echo ===================================================================================
@@ -27,13 +26,14 @@ mode con cols=84 lines=33
 @echo *                5. Salir.                                                        *
 @echo *                                                                                 *
 @echo ===================================================================================
-@echo *================= Info y contacto con el desarrollador ==========================*
+@echo *===================== Donaciones en criptomonedas ===============================*
 @echo ===================================================================================
 @echo *                                                                                 *
-@echo * Ejecutar esta herramienta con privilegios de administrador                      *
-@echo * para su correcto funcionamiento.                                                *
 @echo *                                                                                 *
-@echo * Contacto con el desarrollador: secheverry29@misena.edu.co                       *
+@echo *                                                                                 *
+@echo *                                                                                 *
+@echo *                                                                                 *
+@echo *                                                                                 *
 @echo *                                                                                 *
 @echo ===================================================================================
 @echo.
