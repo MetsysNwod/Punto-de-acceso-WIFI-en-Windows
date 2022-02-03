@@ -8,5 +8,3 @@
 @echo * USDT: TQc4PRLd131domMNkiGJvGYg1iLqLya5Zp                                        *
 @echo * DOGE: DQ3HatacjVTwVGADvWFkjVBibpG1J4BPeN                                        *
 @echo ===================================================================================
-
-BTC Red Ligtning: lnbc1pslcrv0pp57ak8crqq5fu77k62nkff7ek0vday56qhasud867pmsqgg5g33mrsdqqcqzzgxqyz5vqrzjqw8c7yfutqqy3kz8662fxutjvef7q2ujsxtt45csu0k688lkzu3ldr3nnze93r722cqqqqryqqqqthqqpysp5zwmnv9qru5eml2lmjmw2g5gs5x6fs38f2ex4zp6ctu7wehr5gg5q9qypqsqdz29np0clm54yf8u6d7lrdy6sc9fu08n2k08cw53fj7x6upvfrgypkepzef726tsn7830hqwd3lk0u679cen4r2fu6y2vrjakjclwnspa3vf5d
