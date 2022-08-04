@@ -1,6 +1,6 @@
 @echo off
 title Fix
-CHCP 65001
+
 :Menu
 color 70
 cls
