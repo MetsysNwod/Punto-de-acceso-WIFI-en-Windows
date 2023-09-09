@@ -512,34 +512,39 @@ goto :Menu1
 
 
 :Cuarto
+@echo off
+chcp 65001 > nul
 cls
-title Limpiador De Archivos Temporales.
+title Limpiador De Archivos Temporales
 color 17
 
-ForFiles /p "c:\Program Files (x86)\McAfee\Temp" /s /d -1 /c "cmd /c del /q @file" > "C:\Users\%username%\Desktop\Temporales Eliminados.txt"
-ForFiles /p "c:\Program Files (x86)\McAfee\Temp" /d -1 /c "cmd /c rd @FILE /s /Q" >> "C:\Users\%username%\Desktop\Temporales Eliminados.txt"
-ForFiles /p "C:\Users\%username%\AppData\Local\Temp" /s /d -1 /c "cmd /c del /q @file" >> "C:\Users\%username%\Desktop\Temporales Eliminados.txt"
-ForFiles /p "C:\Users\%username%\AppData\Local\Temp" /d -1 /c "cmd /c rd @FILE /s /Q" >> "C:\Users\%username%\Desktop\Temporales Eliminados.txt"
-ForFiles /p "c:\Windows\Temp" /s /d -1 /c "cmd /c del /q @file" >> "C:\Users\%username%\Desktop\Temporales Eliminados.txt"
-ForFiles /p "c:\Windows\Temp"  /d -1 /c "cmd /c rd @FILE /s /Q" >> "C:\Users\%username%\Desktop\Temporales Eliminados.txt"
-ForFiles /p "C:\Windows\Prefetch" /s /d -1 /c "cmd /c del /q @file" >> "C:\Users\%username%\Desktop\Temporales Eliminados.txt"
-ForFiles /p "C:\Windows\Prefetch" /d -1 /c "cmd /c rd @FILE /s /Q" >> "C:\Users\%username%\Desktop\Temporales Eliminados.txt"
+set "logFile=%userprofile%\Desktop\TemporalesEliminados.txt"
+
+rem Limpieza de archivos temporales de McAfee
+ForFiles /p "C:\Program Files (x86)\McAfee\Temp" /s /d -1 /c "cmd /c if @isdir==FALSE (del /q @file) else (rd /s /q @file)" > "%logFile%"
+
+rem Limpieza de archivos temporales en AppData\Local\Temp
+ForFiles /p "C:\Users\%username%\AppData\Local\Temp" /s /d -1 /c "cmd /c if @isdir==FALSE (del /q @file) else (rd /s /q @file)" >> "%logFile%"
+
+rem Limpieza de archivos temporales en c:\Windows\Temp
+ForFiles /p "C:\Windows\Temp" /s /d -1 /c "cmd /c if @isdir==FALSE (del /q @file) else (rd /s /q @file)" >> "%logFile%"
+
+rem Limpieza de archivos temporales en c:\Windows\Prefetch
+ForFiles /p "C:\Windows\Prefetch" /s /d -1 /c "cmd /c if @isdir==FALSE (del /q @file) else (rd /s /q @file)" >> "%logFile%"
 
 echo.
 echo Mostrando reporte de archivos eliminados...
-
-cd "C:\Users\%username%\Desktop"
-
-start notepad.exe "Temporales Eliminados.txt"
+start notepad.exe "%logFile%"
 echo.
-echo Pulse Cualquier tecla para cerrar.
+echo Presione cualquier tecla para cerrar.
 echo.
 pause
 
 taskkill /f /im notepad.exe
 
-echo Limpieza completada con ‚xito abriendo detalles...
+echo Limpieza completada con éxito. Abriendo detalles...
 echo.
+
 
 :Temmporalesdeletr
 cls
@@ -585,7 +590,7 @@ cd "C:\Users\%username%\Desktop"
 echo Eliminando Reporte...
 echo.
 
-del /f /q "Temporales Eliminados.txt"
+del /f /q "TemporalesEliminados.txt"
 
 echo Reporte eliminado.
 echo.
@@ -602,7 +607,7 @@ echo Mostrando reporte de archivos eliminados...
 
 cd "C:\Users\%username%\Desktop"
 
-start notepad.exe "Temporales Eliminados.txt"
+start notepad.exe "TemporalesEliminados.txt"
 echo.
 echo Pulse Cualquier tecla para cerrar.
 echo.
